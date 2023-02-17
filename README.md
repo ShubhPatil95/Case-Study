@@ -93,8 +93,9 @@ filtered_href =  ['https://home.treasury.gov/policy-issues/financial-sanctions/c
 ### 5.Make a graph which plots each entry in List1 against total number of href links, valid https/https links and invalid https links.
 ![image](https://user-images.githubusercontent.com/74223025/219590359-6fd7e44e-e73c-4289-b635-402a8b508640.png)
 
-<br>
-![image](https://user-images.githubusercontent.com/74223025/219590643-6c15eb61-5dd8-46b5-bb63-e86c27125499.png)
+##### Stacked plot
+![image](https://user-images.githubusercontent.com/74223025/219592471-1d8bdd97-bb33-4e44-9223-a0cdbbf50a67.png)
+
 
 ### 6. For each valid http/ https links or sub links find the website having the highest number of each keyword form list2 in Appendix. Group them by main link from list 1 and then the sub links. Make a csv file.
 <a href="https://github.com/ShubhPatil95/Case-Study/blob/main/Max_freq_keyword.csv" > Check Max_freq_keyword </a>
