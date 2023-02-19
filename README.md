@@ -50,7 +50,7 @@ As the given case study is of medium level complexity and it in production we mi
 As first step, creating a jupyter notebook for intial analysis which will be followed by code optimization, improvements and beautifications.
 
 ## 4. Single processing or mulitprocessing
-We have a small amount of data hence we decided to go with sequential operations however we have noticed that it was time consuming. Also there were several factor that can affect the API to respond. Hence if we will plan to deploy this project in production its depolyment should follow the multiprocessing approach to reduce the use waiting time on front end. 
+We have a small amount of data hence we decided to go with sequential operations however we have noticed that it was time consuming. Also there were several factor that can affect the API to respond. Hence if we will plan to deploy this project in production its depolyment should follow the multiprocessing approach to reduce the user waiting time on front end. 
 
 Multiprocess is assigning tasks to multiple processes — workers — to handle tasks alongside other tasks. This is a significant benefit to programmers as it allows you to create more efficient software that can perform tasks and functions.
 
