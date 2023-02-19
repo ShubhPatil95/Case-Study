@@ -100,5 +100,11 @@ filtered_href =  ['https://home.treasury.gov/policy-issues/financial-sanctions/c
 ### 6. For each valid http/ https links or sub links find the website having the highest number of each keyword form list2 in Appendix. Group them by main link from list 1 and then the sub links. Make a csv file.
 <a href="https://github.com/ShubhPatil95/Case-Study/blob/main/Max_freq_keyword.csv" > Check Max_freq_keyword </a>
 
+### 7. Plot a graph showing the number of keywords found in each link and their sub links. Also display the website link having the highest number of keywords and lowest number of keywords. Consider each set of related keywords on a line.
+![image](https://user-images.githubusercontent.com/74223025/219972273-504aabbb-a4ba-45ea-918b-add8d477870c.png)
+<br>
+![image](https://user-images.githubusercontent.com/74223025/219972308-ec2c9386-8be7-4daa-9ec0-da2a2b7d43b2.png)
+
+
 ## 6. Next steps
 As next step we should first discuss these results and our future plan with end user/client and take suggestions and improvement. The main challenge that we can face here is use waiting time hence need to explore more on same. Also we can think of two way deployment 1. Real time API 2. Linux Service as per data size hence need to check the end user requirnment accordingly.  
