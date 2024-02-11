@@ -1,7 +1,7 @@
-import time
+import os
 
-for i in range(100):
-    print("This is just for testing")
-    print("application  is  started")
-    time.sleep(5)
+# Read values from environment variables
+a = int(os.getenv('A', '10'))  # Default value is 10 if not found in ConfigMap
+b = int(os.getenv('B', '20'))  # Default value is 20 if not found in ConfigMap
 
+print(a + b)
