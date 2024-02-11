@@ -1,7 +1,7 @@
 import json
 
 # Read values from config.json
-with open('config.json') as f:
+with open('/config/config.json') as f:
     config = json.load(f)
 
 a = config.get('A', 10)  # Default value is 10 if 'A' key is not found
